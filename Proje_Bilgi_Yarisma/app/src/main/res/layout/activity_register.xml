@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#7B70DD"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:letterSpacing="0.1"
+        android:text="Kayıt Ekranı"
+        android:textColor="#ffff00"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TxtMail"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/edittext1"
+        android:drawableRight="@drawable/ic_email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TxtSifre"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+        android:drawableRight="@drawable/ic_lock"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TxtSifreTekrar"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+        android:drawableRight="@drawable/ic_lock"
+        android:hint="Şifre Tekrar"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnKayitOl"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnregister"
+        android:text="Kayıt Ol"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LblGiris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:text="Zaten Hesabın Var Mı ? Giriş Yap"
+        android:textColor="#ff0000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".SaveGame">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btnkaydet"
+        android:layout_width="152dp"
+        android:layout_height="69dp"
+        android:layout_below="@+id/TxtScore"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="69dp"
+        android:layout_toEndOf="@+id/BtnIptal"
+        android:background="@drawable/btngreen"
+        android:text="KAYDET"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="81dp"
+        android:text="Skor:"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/TxtYasi"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TxtSoyadi"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="14dp"
+        android:text="Yaşı:"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/TxtSoyadi"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TxtAdi"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:text="Soyadı :"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/TxtAdi"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="70dp"
+        android:layout_toEndOf="@+id/textView"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="71dp"
+        android:text="Adı  :"
+        android:textSize="30sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnIptal"
+        android:layout_width="152dp"
+        android:layout_height="69dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/btnred"
+        android:text="İPTAL"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/TxtScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="51dp"
+        android:layout_toEndOf="@+id/textView4"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</RelativeLayout>

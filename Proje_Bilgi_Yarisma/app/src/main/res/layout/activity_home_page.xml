@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#636e72"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".HomePage">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnodul"
+        android:layout_width="303dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/Btnhakkinda"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/btn5"
+        android:text="ÖDÜLLER"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btncikis"
+        android:layout_width="303dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/btnodul"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn4"
+        android:text="ÇIKIŞ YAP"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btnhakkinda"
+        android:layout_width="303dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/Btnskorlar"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/btn3"
+        android:text="HAKKINDA"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btnoyun"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/btn1"
+        android:text="OYUNA BAŞLA"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btnskorlar"
+        android:layout_width="303dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/Btnoyun"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/btn2"
+        android:text="Harita"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+</RelativeLayout>
